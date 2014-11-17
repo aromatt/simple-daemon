@@ -1,7 +1,7 @@
 require 'simple-daemon/version'
 require 'fileutils'
 
-module Simple-Daemon
+module SimpleDaemon
   class Base
 
     attr_reader :pid_file, :log_file
