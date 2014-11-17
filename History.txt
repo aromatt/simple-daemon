@@ -1,3 +1,13 @@
+== 0.2.0 2014-10-23
+
+* 2 major enhancements:
+  * Kill entire process group upon exit
+  * Make pid and log files configurable
+
+* 2 minor enhancements:
+  * Unbuffer stdout and stderr
+  * mkdir -p log and pid files
+
 == 0.1.2 2007-07-08
 
 * 2 minor enhancements:
