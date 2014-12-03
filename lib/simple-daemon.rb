@@ -6,6 +6,7 @@ module SimpleDaemon
 
     attr_reader :pid_file, :log_file
     def initialize(opts = {})
+      @options = opts.dup
       @pid_file = opts[:pid_file] || "/var/run/#{classname}.pid"
       @log_file = opts[:log_file] || "/var/log/#{classname}.log"
     end
